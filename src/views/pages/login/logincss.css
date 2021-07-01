@@ -1,0 +1,25 @@
+.logodiv{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #2827CC;
+    margin: 5px;
+    padding: 10px;
+    height: fit-content;
+
+}
+
+.bgslogo{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 120px;
+        margin: 10px;
+      }
+.projecttitle{
+    color: aliceblue;
+    margin: 20px;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: bold;
+}
