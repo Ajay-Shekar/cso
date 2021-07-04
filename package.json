@@ -61,7 +61,7 @@
     "react-scripts": "^4.0.3"
   },
   "scripts": {
-    "start": "PORT=3006 react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "test:cov": "npm test -- --coverage --watchAll=false",
@@ -69,7 +69,7 @@
     "eject": "react-scripts eject",
     "changelog": "auto-changelog --starting-version 3.0.0 --commit-limit false --hide-credit"
   },
-  "proxy": "http://34.132.64.191:9999",
+  "proxy": "http://35.224.42.221:9999",
   "bugs": {
     "url": "https://github.com/coreui/coreui-free-react-admin-template/issues"
   },
