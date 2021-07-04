@@ -2,9 +2,9 @@ const { createProxyMiddleware }=require('http-proxy-middleware');
 
 module.exports =function(app){
 app.use(
-'/api',
+'/osm',
 createProxyMiddleware({
-target :'http://34.132.64.191:9999',
+target :'http://35.224.42.221:9999',
 changeOrigin: true,
 })
 );
